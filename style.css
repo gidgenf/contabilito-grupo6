@@ -4,12 +4,14 @@ body {
 }
 
 h1 {
-    background-color: aquamarine;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(68, 219, 169);
     border-radius: 10px;
-    font-size: 500%;
+    font-size: 450%;
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
+    margin: 1%;
 }
 
 .formelement {
@@ -17,13 +19,12 @@ h1 {
 }
 
 .button {
-    border: 3px solid green;
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 5%;
     background-color: lightblue;
     border-radius: 10px;
     padding: 1%;
     font-size: 200%;
-    margin-top: 1%;
 }
 
 .buttonsubmit {
@@ -31,11 +32,11 @@ h1 {
 }
 
 .money {
-    border: 3px solid green;
+    border: 3px solid rgb(8, 8, 8);
     text-align: left;
     margin: auto;
     width: 60%;
-  
+
 }
 
 .movement {
@@ -43,7 +44,7 @@ h1 {
 }
 
 table {
-    width: 400px;
+    width: 350px;
     background-color: lightgrey;
     font-size: smaller;
 }
@@ -59,7 +60,7 @@ tr:nth-child(even) {
 }
 
 .container {
-    border: 3px solid green;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 15px;
     background-color: aliceblue;
     padding-bottom: 2%;
@@ -74,7 +75,15 @@ tr:nth-child(even) {
     display: flex;
 }
 
+.listitem {
+    margin-top: 2%;
+}
+
 .containerG {
     width: 350px;
     margin: auto;
+    background-color: rgb(70, 138, 194);
+    padding: 1%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
 }
