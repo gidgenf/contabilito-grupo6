@@ -87,3 +87,10 @@ tr:nth-child(even) {
     border: 1px solid rgb(0, 0, 0);
     border-radius: 20px;
 }
+
+.alertlabel {
+    background-color: rgb(255, 44, 44);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: x-large;
+}
